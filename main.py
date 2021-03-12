@@ -7,6 +7,9 @@ from radius_vector import Radius_vector
 
 
 def run_game():
+    """
+    Run all the program the program.
+    """
     # initializes screen 
     pg.init()
     screen = pg.display.set_mode((sts.screen_width, sts.screen_height))

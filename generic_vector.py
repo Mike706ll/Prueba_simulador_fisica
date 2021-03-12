@@ -4,6 +4,9 @@ import math as mt
 from math_functions import v_to_s
 
 class Generic_Vector:
+    """
+    Class about general properties and methods for vectors.
+    """
 
     def __init__(self, initial_point, end_point):
         self.ini_x, self.ini_y = initial_point
